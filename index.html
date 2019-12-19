@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Nieuwsbrief</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <style type="text/css">
+
+        /* reset */
+        img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            display: block;
+            line-height: 100%;
+        }
+        
+        table {
+            border-collapse: collapse !important;
+        }
+        
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* layout */
+        a {
+            color: #e8412a;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #e8412a;
+            text-decoration: underline;
+        }
+        
+        h1,
+        h2 {
+            mso-line-height-rule: exactly;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 a,
+        h2 a {
+            color: #e8412a;
+            text-decoration: none;
+        }        
+        h1 a:hover,
+        h2 a:hover {
+            color: #e8412a;
+            text-decoration: underline;
+        }
+        .tekst,
+        .tabelpadding{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            color: #333333;
+            padding: 0;
+            margin: 0;
+            mso-line-height-rule: exactly;
+        }
+        
+        .titel {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: bold;
+            color: #e8412a;
+            padding: 0;
+            margin: 0;
+            mso-line-height-rule: exactly;
+            text-align: right;
+        }
+
+	/* lists */
+        ul { 
+            margin-top: 0px; 
+        }
+        ul li { 
+            list-style-type: square; 
+            list-style-position: outside; 
+            margin-top: 0px; 
+            margin-left: -25px; 
+            padding-left: 5px; 
+            font-size:16px; 
+            line-height:24px; 
+        }
+        ol li {
+            font-size: 16px;
+            line-height:24px;
+        }
+
+        /* webversion */
+        .webversie {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: normal;
+            color: #333333;
+            padding: 0;
+            margin: 0;
+            mso-line-height-rule: exactly;
+            text-align: right;
+        }
+        
+        .webversie a {
+            color: #333333;
+            text-decoration: underline;
+        }
+        
+        .webversie a:hover {
+            color: #e8412a;
+            text-decoration: underline;
+        }
+
+        /* buttons */
+        .button {
+          background: #e8412a;
+          border-radius: 8px;
+        }
+
+        .button a {
+          border: 1px solid #e8412a;
+          border-radius: 8px;
+          color: #fff;
+          display: inline-block;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          line-height:20px;
+          padding: 12px 18px;
+          text-decoration: none;
+        }
+
+        .button a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* footer */
+        .footer {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 20px 30px 20px 30px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        .footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* images */
+        .afbeelding {
+            background-color: #dedcdf;
+            color: #000000;
+            height: auto;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+        }
+
+        img.lp-multiline-image {
+            -webkit-border-radius: 8px;
+        }
+
+        /* logo */
+        .logo img {
+            background-color: #dedcdf;
+            color: #000000;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            height: auto;
+            text-align: center;
+        }
+
+        /* spacing */
+        .tabelpadding {
+            padding: 30px 30px !important;
+        }
+        
+        .spacing10 {
+            font-size: 0;
+            line-height: 10px;
+            height: 10px;
+            mso-line-height-rule: exactly;
+        }
+        
+        .spacing15 {
+            font-size: 0;
+            line-height: 15px;
+            height: 15px;
+            mso-line-height-rule: exactly;
+        }
+        
+        .spacing20 {
+            font-size: 0;
+            line-height: 20px;
+            height: 20px;
+            mso-line-height-rule: exactly;
+        }
+        
+        .spacing30 {
+            font-size: 0;
+            line-height: 30px;
+            height: 30px;
+            mso-line-height-rule: exactly;
+        }
+        
+        .spacing40 {
+            font-size: 0;
+            line-height: 40px;
+            height: 40px;
+            mso-line-height-rule: exactly;
+        }
+
+        /* other */
+        .display_none {
+            font-size: 0px;
+            line-height: 0px;
+            padding: 0;
+            margin: 0;
+            mso-line-height-rule: exactly;
+        }
+
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+        #outlook a {
+          padding: 0;
+        }
+
+        .ReadMsgBody {
+          width: 100%;
+        }
+        
+	/* responsive */
+        @media screen and (max-width:680px) {
+            table.lp-image-wrapper {
+                width: 100% !important;
+            }
+            td.lp-image-wrapper-h {
+                display: none !important;
+            }
+            td.lp-image-wrapper-img {
+                display: block !important;
+                width: 100% !important;
+                overflow: auto;
+            }
+            img.lp-multiline-image {
+                width: 100% !important;
+                height: auto !important;
+                margin: 0 !important;
+            }
+            h1,
+            h2 {
+                font-size: 22px !important;
+                line-height: 26px !important;
+                margin-top:1% !important;
+            }
+            .tekst {
+                font-size: 17px !important;
+                line-height: 22px !important;
+            }
+            .titel {
+                margin-bottom: 30px !important;
+            }
+            .footer {
+                border-radius: 0 !important;
+                font-size: 15px !important;
+                line-height: 21px !important;
+                padding: 20px 20px 20px 20px !important;
+            }
+            .afbeelding {
+                width:100% !important; 
+                height:auto !important; 
+                hspace:0; 
+                vspace:0px; 
+            }
+            .logo img {
+                width: 75% !important;
+                text-align: center !important;
+                display: inherit !important;
+            }
+            body {
+                padding:0 !important;
+            }
+            .tabelpadding {
+                padding: 30px 20px 0px 20px !important;
+                border-radius: 0px !important;
+            }
+            #tekstkolom,
+            .vollebreedte {
+                width: 100% !important;
+                display: block;
+            }
+            .logo,
+            .webversie,
+            .titel {
+                width: 100% !important;
+                display: block;
+                text-align: center !important;
+            }
+            table.display_none,
+            tr.display_none,
+            td.display_none,
+            img.display_none,
+            font.display_none,
+            br.display_none,
+            a.display_none,
+            #display_none{
+                display: none !important;
+                width: 0px !important;
+                height: 0px !important;
+                visibility: hidden !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: #dedcdf; margin: 0 !important;">
+    <!-- De 'presentation' rol in een tabel voorkomt dat de schermlezer de tabelstructuur voorleest en zorgt er dus voor dat de schermlezer zich beperkt tot de echte inhoud.
+Elementen met 'aria-hidden="true"' worden genegeerd door een schermlezer. -->
+
+    <!-- Verticale witruimte -->
+    <div class="spacing30" aria-hidden="true" id="display_none">&nbsp;</div>
+    <!-- /Verticale witruimte -->
+    
+    <table border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%">
+        <tr>
+            <td bgcolor="#dedcdf" style="font-size: 0;" class="display_none" aria-hidden="true">&nbsp;</td>
+            <td bgcolor="white" width="600" style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="tabelpadding">
+
+                <table border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%">
+                    <tr>
+                        <td bgcolor="white" width="250" valign="top" align="center" class="logo">
+
+                            <a href="https://laposta.nl" title="Laposta logo"><img width="230" alt="De schermlezer zal de alt-omschrijving voorlezen om de afbeelding te beschrijven. Dit is een logo." src="images/logo.png"></a>
+
+                            <!-- Verticale witruimte -->
+                            <div class="spacing20" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                        </td>
+                        <td bgcolor="white" width="350" valign="top" align="right" class="vollebreedte">
+                            <div class="webversie">
+                                <a href="/tag/web">
+                                    <lp-singleline lp-label="Link naar webversie" lp-disable-href>Bekijk webversie</lp-singleline>
+                                </a>
+                            </div>
+                            <p class="titel">
+                                <lp-singleline>Titel van de nieuwsbrief</lp-singleline>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <lp-repeater>
+                    <lp-layout lp-label="Afbeelding over volle breedte">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td>
+                                <img lp-edit lp-highres="" lp-label="Afbeelding" alt="Korte omschrijving van afbeelding" src="http://placehold.it/600x300" height="300" width="600" class="afbeelding">
+                            </td>
+                          </tr>
+                        </table>
+                        </lp-layout>
+
+                    <lp-layout lp-label="H1-titel met tekst">
+                        <article>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing30" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                            <h1 style="color: #e8412a; font-size: 32px; font-weight: bold; line-height: 36px; margin:0;"><lp-singleline>Dit is een belangrijke kop (H1)</lp-singleline></h1>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing10" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                            <p class="tekst" style="font-size: 16px; line-height: 24px;">
+                                <lp-multiline><img src="http://placehold.it/200x135" width="200" align="right" hspace="10" vspace="16" lp-resizable="" lp-edit="" lp-highres="" lp-label="Afbeelding binnen tekst" alt="Korte omschrijving van afbeelding" />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis <a href="#">parturient</a> montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</lp-multiline>
+                            </p>
+                        </article>
+                    </lp-layout>
+                    <lp-layout lp-label="H2-titel met tekst">
+                        <article>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing30" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                            <h2 style="color: #e8412a; font-size: 26px; font-weight: bold; line-height: 30px; margin:0;"><lp-singleline>Dit is een normale kop (H2)</lp-singleline></h2>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing10" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                            <p class="tekst" style="font-size: 16px; line-height: 24px;">
+                                <lp-multiline><img src="http://placehold.it/200x135" width="200" align="right" hspace="10" vspace="16" />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis <a href="#">parturient</a> montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</lp-multiline>
+                            </p>
+                        </article>
+                    </lp-layout>
+                    <lp-layout lp-label="Losse H2-titel">
+                        <article>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing30" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                            <h2 style="color: #e8412a; font-size: 26px; font-weight: bold; line-height: 30px; margin:0;"><lp-singleline>Dit is een losse normale kop (H2)</lp-singleline></h2>
+                            <!-- Verticale witruimte -->
+                            <div class="spacing10" aria-hidden="true">&nbsp;</div>
+                            <!-- /Verticale witruimte -->
+                        </article>
+                    </lp-layout>
+                    <lp-layout lp-label="Tekst in 2 kolommen">
+                        <table border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%">
+                            <tr>
+                                <td bgcolor="white" width="280" valign="top" class="tekst" id="tekstkolom">
+                                    <article>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing30" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                          <tr>
+                                            <td>
+                                                <img lp-edit lp-highres="" lp-label="Afbeelding" alt="Korte omschrijving van afbeelding" src="http://placehold.it/280x200" height="200" width="280" class="afbeelding">
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing15" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <h2 style="color: #e8412a; font-size: 20px; font-weight: bold; line-height: 24px; margin:0;"><lp-singleline>Dit is een normale kop (H2)</lp-singleline></h2>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing10" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <p class="tekst" style="font-size: 16px; line-height: 24px;">
+                                            <lp-multiline>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                                <br>
+                                                <br><a href="#">Duidelijke leesmeer-link</a></lp-multiline>
+                                        </p>
+                                    </article>
+                                </td>
+                                <td width="40" aria-hidden="true" class="display_none">&nbsp;</td>
+                                <td bgcolor="white" width="280" valign="top" class="tekst" id="tekstkolom">
+                                    <article>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing30" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                          <tr>
+                                            <td>
+                                                <img lp-edit lp-highres="" lp-label="Afbeelding" alt="Korte omschrijving van afbeelding" src="http://placehold.it/280x200" height="200" width="280" class="afbeelding">
+                                            </td>
+                                          </tr>
+                                        </table>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing15" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <h2 style="color: #e8412a; font-size: 20px; font-weight: bold; line-height: 24px; margin:0;"><lp-singleline>Dit is een normale kop (H2)</lp-singleline></h2>
+                                        <!-- Verticale witruimte -->
+                                        <div class="spacing10" aria-hidden="true">&nbsp;</div>
+                                        <!-- /Verticale witruimte -->
+                                        <p class="tekst" style="font-size: 16px; line-height: 24px;">
+                                            <lp-multiline>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commod natoque penatibus et dis parturient montod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euntod natoque penatibus et magnis dis montes, nascetur ridiculus mus.ntod natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                                <br>
+                                                <br><a href="#">Duidelijke leesmeer-link</a></lp-multiline>
+                                        </p>
+                                    </article>
+                                </td>
+                            </tr>
+                        </table>
+                    </lp-layout>
+
+                    <lp-layout lp-label="Button">
+                        <!-- Verticale witruimte -->
+                        <div class="spacing40" aria-hidden="true">&nbsp;</div>
+                        <!-- /Verticale witruimte -->
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center">
+                          <tr>
+                            <td align="center" class="button">
+                              <lp-multiline lp-label="link"><a href="#">
+                                  <!--[if mso]>&nbsp;<![endif]-->Ik ben een knop  &rarr;
+                                  <!--[if mso]>&nbsp;<![endif]--></a></lp-multiline>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- Verticale witruimte -->
+                        <div class="spacing40" aria-hidden="true">&nbsp;</div>
+                        <!-- /Verticale witruimte -->
+                    </lp-layout>
+                </lp-repeater>
+            </td>
+            <td bgcolor="#dedcdf" style="font-size: 0;" class="display_none" aria-hidden="true">&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#dedcdf" style="font-size: 0;" class="display_none" aria-hidden="true">&nbsp;</td>
+            <td bgcolor="#000000" width="600" style="font-size: 16px; line-height: 24px;" class="footer">
+                <p>
+                    <lp-multiline>
+                        <strong>Laposta BV</strong>
+                        <br /> Waterstraat 5
+                        <br /> 7201 HM Zutphen
+                        <br />
+                        <br />
+                        <em>Wilt u geen nieuwsbrief meer ontvangen?
+                        <lp-unsubscribe>Klik hier om u af te melden.</lp-unsubscribe>
+                  <br />
+                  <lp-editprofile>Klik hier om uw gegevens te wijzigen.</lp-editprofile>
+                </em></lp-multiline>
+                </p>
+
+            </td>
+            <td bgcolor="#dedcdf" style="font-size: 0;" class="display_none" aria-hidden="true">&nbsp;</td>
+        </tr>
+    </table>
+    
+    <!-- Verticale witruimte -->
+    <div class="spacing30" aria-hidden="true" id="display_none">&nbsp;</div>
+    <!-- /Verticale witruimte -->
+    
+</body>
+</html>
